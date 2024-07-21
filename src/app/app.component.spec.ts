@@ -20,10 +20,44 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('mayarafurtado.paliar.br-angular-frontend');
   });
 
-  it('should render title', () => {
+  it('should render title Home', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, mayarafurtado.paliar.br-angular-frontend');
+    expect(compiled.querySelector('#home')?.textContent).toContain('Home');
+  });
+
+  it('should render title Biography', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('#biography')?.textContent).toContain(
+      'Biography'
+    );
+  });
+
+  it('should render title Clinic', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('#clinic')?.textContent).toContain('Clinic');
+  });
+
+  it('should render title Depositions', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('#depositions')?.textContent).toContain(
+      'Depositions'
+    );
+  });
+
+  it('should render title Contacts', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('#contacts')?.textContent).toContain(
+      'Contacts'
+    );
   });
 });
