@@ -161,12 +161,19 @@
     font-size: 1.5rem;
   }
 
+  .home-container-3 {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+
   .home-container-3 h1 {
     font-size: 2rem;
   }
 
   .home-container-3 p {
     font-size: 1.5rem;
+    text-align: center;
   }
 
   .home-photo {

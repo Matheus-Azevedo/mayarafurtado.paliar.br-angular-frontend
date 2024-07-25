@@ -155,8 +155,13 @@
   .clinic-geap-logo,
   .clinic-prevmed-logo,
   .clinic-particular-logo {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--green-paliar);
   }
 }
 
@@ -175,8 +180,13 @@
   .clinic-geap-logo,
   .clinic-prevmed-logo,
   .clinic-particular-logo {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--green-paliar);
   }
 }
 
@@ -189,5 +199,17 @@
   .clinic-container-4 h1,
   .clinic-container-3 h1 {
     font-size: 1.5rem;
+  }
+
+  .clinic-geap-logo,
+  .clinic-prevmed-logo,
+  .clinic-particular-logo {
+    width: 150px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    border: 0.1rem solid var(--green-paliar);
   }
 }
