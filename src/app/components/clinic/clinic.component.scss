@@ -18,16 +18,23 @@
 
 .clinic-container-2 {
   width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.clinic-container-3 {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .clinic-container-5 {
   width: 50%;
+  display: flex;
 }
 
 .clinic-container-2,
 .clinic-container-3,
 .clinic-container-4 {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,11 +46,6 @@
 .clinic-container-3 p {
   display: flex;
   width: 60%;
-}
-
-.clinic-container-5 {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .clinic-container-2 ul p {
