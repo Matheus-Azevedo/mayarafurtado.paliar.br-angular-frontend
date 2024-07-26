@@ -3,24 +3,22 @@
   flex-direction: column;
   position: relative;
   gap: 5rem;
-  height: 100%;
+  // height: 100%;
   margin-left: 5%;
   margin-right: 5%;
-  transition: all 0.3s ease;
+  // height: auto;
 }
 
 .home-container-2 {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  transition: all 0.3s ease;
+  // width: 100%;
 }
 
 .home-container-2 h1 {
   font-size: 2rem;
   color: var(--green-paliar);
   font-weight: 900;
-  transition: all 0.3s ease;
 }
 
 .home-container-2 p {
@@ -28,56 +26,40 @@
   font-size: 1rem;
   color: var(--brown-paliar);
   font-weight: 500;
-  transition: all 0.3s ease;
 }
 
 .home-container-2 nav {
   margin-top: -3rem;
   font-size: 2rem;
   display: flex;
-  flex-direction: row;
   color: var(--green-paliar);
   font-weight: 700;
   gap: 1rem;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .home-container-2 nav button:hover {
   color: var(--brown-paliar);
 }
 
-.home-container-2 nav button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-  transition: all 0.3s ease;
-}
-
 .home-container-3 {
   display: flex;
-  flex-direction: row;
+  gap: 5rem;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  transition: all 0.3s ease;
 }
 
 .home-container-3 h1 {
   font-size: 3.5rem;
   color: var(--green-paliar);
   font-weight: 900;
-  transition: all 0.3s ease;
 }
 
 .home-container-3 p {
-  margin-top: -0.5rem;
-  text-align: justify;
+  margin-top: -1rem;
   font-size: 1.5rem; /* Font size at default */
   color: var(--brown-paliar);
   font-weight: 700;
-  transition: all 0.3s ease;
 }
 
 .home-photo {
@@ -89,168 +71,4 @@
   background-size: cover;
   border-radius: 1rem;
   border: 0.1rem solid var(--green-paliar);
-  transition: all 0.3s ease;
-}
-
-@media screen and (max-width: 1500px) {
-  .home-container-2 h1 {
-    font-size: 1.75rem;
-  }
-
-  .home-container-2 p {
-    font-size: 0.9rem;
-  }
-
-  .home-container-2 nav {
-    font-size: 1.75rem;
-  }
-
-  .home-container-3 h1 {
-    font-size: 2.5rem;
-  }
-
-  .home-container-3 p {
-    font-size: 1.75rem;
-  }
-
-  .home-photo {
-    width: 350px;
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .home-container-2 h1 {
-    font-size: 1.75rem;
-  }
-
-  .home-container-2 p {
-    font-size: 0.9rem;
-  }
-
-  .home-container-2 nav {
-    font-size: 1.75rem;
-  }
-
-  .home-container-3 h1 {
-    font-size: 2.5rem;
-  }
-
-  .home-container-3 p {
-    font-size: 1.5rem;
-  }
-
-  .home-photo {
-    width: 300px;
-    height: 350px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .home-container-2 h1 {
-    font-size: 1.5rem;
-  }
-
-  .home-container-2 p {
-    font-size: 0.8rem;
-  }
-
-  .home-container-2 nav {
-    font-size: 1.5rem;
-  }
-
-  .home-container-3 {
-    flex-direction: column;
-    gap: 5rem;
-    text-align: center;
-  }
-
-  .home-container-3 h1 {
-    font-size: 2rem;
-  }
-
-  .home-container-3 p {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .home-photo {
-    width: 250px;
-    height: 300px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home-container-1 {
-    margin-left: 0;
-    margin-right: 0;
-    justify-content: center;
-    gap: 1rem;
-  }
-
-  .home-container-2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .home-container-2 nav {
-    font-size: 1rem;
-  }
-
-  .home-container-2 h1 {
-    font-size: 1.5rem;
-  }
-
-  .home-container-2 p {
-    font-size: 0.8rem;
-  }
-
-  .home-container-3 {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .home-container-3 h1 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .home-container-3 p {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-  .home-photo {
-    width: 200px;
-    height: 250px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .home-container-2 h1 {
-    font-size: 1.25rem;
-  }
-
-  .home-container-2 p {
-    font-size: 0.7rem;
-  }
-
-  .home-container-2 nav {
-    font-size: 0.8rem;
-  }
-
-  .home-container-3 h1 {
-    font-size: 1.25rem;
-  }
-
-  .home-container-3 p {
-    font-size: 1rem;
-  }
-
-  .home-photo {
-    width: 150px;
-    height: 200px;
-  }
 }
