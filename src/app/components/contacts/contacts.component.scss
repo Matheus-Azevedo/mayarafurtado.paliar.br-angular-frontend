@@ -1,15 +1,16 @@
 .contacts-container-1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   position: relative;
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
+  gap: 15rem;
 }
 
 .contacts-container-2 {
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
