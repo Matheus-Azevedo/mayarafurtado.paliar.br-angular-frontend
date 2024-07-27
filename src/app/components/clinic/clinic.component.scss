@@ -1,22 +1,22 @@
 .clinic-container-1 {
   display: flex;
   position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding: 3% 5%;
   color: var(--green-paliar);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  height: 100vh;
 }
 
 .clinic-container-2 {
-  width: 60%;
+  width: 50%;
 }
 
 .clinic-container-5 {
-  width: 40%;
+  width: 50%;
   display: flex;
-  gap: 0.5rem;
-  justify-content: center;
+  gap: 6rem;
+  justify-content: flex-end;
 }
 
 .clinic-container-2,
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .clinic-container-2 li {
@@ -43,7 +43,7 @@
 .clinic-container-2 h1,
 .clinic-container-4 h1,
 .clinic-container-3 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
@@ -79,8 +79,8 @@
 
 .clinic-place,
 .clinic-oncovida {
-  width: 250px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
 }
 
 .clinic-geap-logo {
