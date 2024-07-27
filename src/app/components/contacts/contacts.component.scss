@@ -1,31 +1,27 @@
 .contacts-container-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
-  height: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-  gap: 15rem;
+  justify-content: space-between;
+  padding: 3% 5%;
+  height: 100vh;
 }
 
 .contacts-container-2 {
-  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
   width: 100%;
 }
 
 .contacts-container-paragraphe {
-  margin-top: -1rem;
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: 700;
   line-height: 1.1;
 }
 
 .contacts-container-forms {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -36,11 +32,17 @@
 .contacts-container-forms label {
   display: flex;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .contacts-container-forms label span {
-  min-width: 120px;
+  min-width: 12rem;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-container-forms .message-span {
+  align-items: flex-start;
 }
 
 .contacts-container-forms input,
@@ -52,12 +54,12 @@
 
 .contacts-container-forms input,
 .contacts-container-forms textarea {
-  width: 20rem;
+  width: 25rem;
 }
 
 .contacts-container-forms input,
 .contacts-container-forms button {
-  height: 2.5rem;
+  height: 3.5rem;
 }
 
 .contacts-container-forms button {
@@ -65,7 +67,8 @@
   color: #ffffff;
   font-weight: 700;
   cursor: pointer;
-  width: 100px;
+  width: 15rem;
+  font-size: 2rem;
 }
 
 .contacts-container-forms button:hover {
@@ -85,7 +88,7 @@
 }
 
 .contacts-container-3 nav {
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: row;
   color: var(--brown-paliar);
@@ -97,51 +100,4 @@
 
 .contacts-container-3 nav button:hover {
   color: var(--green-paliar);
-}
-
-@media screen and (max-width: 768px) {
-  .contacts-container-1 {
-    gap: 1rem;
-  }
-
-  .contacts-container-2,
-  .contacts-container-3 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .contacts-container-paragraphe {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-
-  .contacts-container-forms {
-    gap: 0.5rem;
-    align-items: center;
-    font-size: 1rem;
-    opacity: 0.6;
-  }
-
-  .contacts-container-forms label {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contacts-container-forms label span {
-    min-width: 0;
-  }
-
-  .contacts-container-forms input,
-  .contacts-container-forms textarea,
-  .contacts-container-forms button {
-    width: 15rem;
-  }
-
-  .contacts-container-3 nav {
-    font-size: 1rem;
-  }
 }
