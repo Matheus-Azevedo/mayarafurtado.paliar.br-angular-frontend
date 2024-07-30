@@ -101,3 +101,69 @@
 .contacts-container-3 nav button:hover {
   color: var(--green-paliar);
 }
+
+@media screen and (max-width: 768px) {
+  .contacts-container-1 {
+    gap: 1rem;
+    padding: 3% 2%;
+    min-height: 140vh;
+  }
+
+  .contacts-container-2 {
+    flex-direction: column;
+  }
+
+  .contacts-container-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .contacts-container-3 h1 {
+    font-size: 2rem;
+  }
+
+  .contacts-container-3 svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .contacts-container-3 nav {
+    font-size: 1rem;
+  }
+
+  .contacts-container-paragraphe {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .contacts-container-forms {
+    align-items: center;
+  }
+
+  .contacts-container-forms label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .contacts-container-forms .message-span {
+    align-items: center;
+  }
+
+  .contacts-container-forms label span {
+    min-width: 0;
+    font-size: 1rem;
+  }
+
+  .contacts-container-forms input,
+  .contacts-container-forms textarea {
+    width: 100%; /* Ajustar a largura para 100% no mobile */
+  }
+
+  .contacts-container-forms button {
+    width: 100%; /* Ajustar a largura para 100% no mobile */
+  }
+}
